@@ -1,6 +1,7 @@
 import "./App.scss";
+import TodoFooter from "./components/TodoFooter/TodoFooter";
 import TodoInput from "./components/TodoInput/TodoInput";
-import TodoList from "./components/TodoList";
+import TodoList from "./components/TodoList/TodoList";
 
 function App() {
   return (
@@ -9,15 +10,7 @@ function App() {
         <header>todos for mindbox</header>
         <TodoInput />
         <TodoList />
-        <footer>
-          <p>2 items left</p>
-          <div>
-            <p>All</p>
-            <p>Active</p>
-            <p>Completed</p>
-          </div>
-          <p className="clearButton">Clear completed</p>
-        </footer>
+        <TodoFooter />
       </div>
     </div>
   );

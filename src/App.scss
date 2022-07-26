@@ -72,10 +72,15 @@
     img {
       width: 30px;
       margin-left: 10px;
+      cursor: pointer;
     }
     p {
       margin-left: 10px;
       font-size: 30px;
+    }
+    .completed {
+      text-decoration: line-through;
+      opacity: 0.2;
     }
   }
   .todoItem:first-child {
@@ -94,6 +99,7 @@ footer {
   align-items: center;
   p {
     font-size: 14px;
+    color: #ffffff;
   }
   div {
     display: flex;
