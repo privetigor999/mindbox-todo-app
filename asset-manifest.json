@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/mindbox-todo-app/static/css/main.640850bd.css",
+    "main.js": "/mindbox-todo-app/static/js/main.d52d5d63.js",
+    "static/media/active.png": "/mindbox-todo-app/static/media/active.7329c98f49df182088b6.png",
+    "static/media/completed.png": "/mindbox-todo-app/static/media/completed.e5adccf44821f099f5f3.png",
+    "static/media/remove.png": "/mindbox-todo-app/static/media/remove.b434a98c20f603c46f9e.png",
+    "static/media/add.png": "/mindbox-todo-app/static/media/add.3242ed2b978739d925f4.png",
+    "index.html": "/mindbox-todo-app/index.html",
+    "main.640850bd.css.map": "/mindbox-todo-app/static/css/main.640850bd.css.map",
+    "main.d52d5d63.js.map": "/mindbox-todo-app/static/js/main.d52d5d63.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.640850bd.css",
+    "static/js/main.d52d5d63.js"
+  ]
+}
