@@ -1,0 +1,52 @@
+.todoList {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  flex: 1;
+  overflow: scroll;
+  .todoItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 400px;
+    height: 60px;
+    background: #fff;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    padding: 15px 0;
+    color: #5b738f;
+    img {
+      width: 30px;
+      margin-left: 10px;
+      cursor: pointer;
+      opacity: 0.4;
+    }
+    img:hover {
+      opacity: 1;
+    }
+    p {
+      margin-left: 10px;
+      font-size: 30px;
+      flex: 1;
+    }
+    .completed {
+      text-decoration: line-through;
+      opacity: 0.2;
+    }
+    .removeButton {
+      cursor: pointer;
+      margin-right: 10px;
+      transition: transform 0.2s ease-in-out;
+    }
+    .removeButton:hover {
+      transform: rotate(90deg);
+    }
+  }
+  .todoItem:first-child {
+    margin-top: 10px;
+  }
+  .todoItem:last-child {
+    margin-bottom: 10px;
+  }
+}

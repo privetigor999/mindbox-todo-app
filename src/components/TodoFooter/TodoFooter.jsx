@@ -1,21 +1,13 @@
 import React from "react";
-import { useSelector, useDispatch } from "react-redux";
-import { showActivedTodo } from "../../features/todo/todoSlice";
+import "./styles.scss";
+import { useSelector } from "react-redux";
+
 const TodoFooter = () => {
   const counter = useSelector((state) => state.todo.todos.length);
-  const dispatch = useDispatch();
-  const showActive = () => {
-    dispatch(showActivedTodo());
-  };
+
   return (
     <footer>
-      <p>{counter} items left</p>
-      <div>
-        <p>All</p>
-        <p onClick={showActive}>Active</p>
-        <p>Completed</p>
-      </div>
-      <p className="clearButton">Clear completed</p>
+      <p>total: {counter} items</p>
     </footer>
   );
 };

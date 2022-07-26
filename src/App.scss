@@ -10,106 +10,19 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background: #d4d4d4;
+  background: linear-gradient(45deg, #a496f8, #dcece1);
   .wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 700px;
     height: 500px;
-    background: #7c6c6c;
+    background: #5b738f;
     border-radius: 20px;
     header {
-      color: pink;
+      color: #dcece1;
       padding-top: 20px;
       font-size: 30px;
     }
-    .todoInput {
-      display: flex;
-      align-items: center;
-      position: relative;
-
-      input {
-        width: 300px;
-        height: 40px;
-        font-size: 24px;
-        border: none;
-        outline: none;
-        border-radius: 20px;
-        padding: 0 40px 0 10px;
-      }
-      input::placeholder {
-        font-size: 20px;
-      }
-      img {
-        position: absolute;
-        right: 0;
-        width: 28px;
-        cursor: pointer;
-        margin-right: 4px;
-      }
-    }
-  }
-}
-
-.todoList {
-  display: flex;
-  align-items: center;
-  justify-content: start;
-  flex-direction: column;
-  flex: 1;
-  overflow: scroll;
-  .todoItem {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 400px;
-    height: 60px;
-    background: #fff;
-    border-radius: 10px;
-    margin-bottom: 5px;
-    padding: 15px 0;
-    img {
-      width: 30px;
-      margin-left: 10px;
-      cursor: pointer;
-    }
-    p {
-      margin-left: 10px;
-      font-size: 30px;
-    }
-    .completed {
-      text-decoration: line-through;
-      opacity: 0.2;
-    }
-  }
-  .todoItem:first-child {
-    margin-top: 10px;
-  }
-  .todoItem:last-child {
-    margin-bottom: 10px;
-  }
-}
-
-footer {
-  display: flex;
-  width: 400px;
-  height: 40px;
-  justify-content: space-between;
-  align-items: center;
-  p {
-    font-size: 14px;
-    color: #ffffff;
-  }
-  div {
-    display: flex;
-    flex-direction: row;
-    p {
-      margin-left: 5px;
-      cursor: pointer;
-    }
-  }
-  .clearButton {
-    cursor: pointer;
   }
 }

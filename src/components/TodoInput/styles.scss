@@ -1,0 +1,29 @@
+.todoInput {
+  display: flex;
+  align-items: center;
+  position: relative;
+
+  input {
+    width: 300px;
+    height: 40px;
+    font-size: 24px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    padding: 0 40px 0 10px;
+  }
+  input::placeholder {
+    font-size: 20px;
+  }
+  img {
+    position: absolute;
+    right: 0;
+    width: 32px;
+    cursor: pointer;
+    margin-right: 4px;
+    opacity: 0.6;
+  }
+  img:hover {
+    opacity: 1;
+  }
+}
